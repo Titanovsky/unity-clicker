@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 using TMPro;
 
-public class ClickerUI : Clicker
+public class UI : Game
 {
     public TMP_Text textClicks;
     public TMP_Text textMoney;

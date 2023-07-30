@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class Clicker : MonoBehaviour
+public class Game : MonoBehaviour
 {
     public static int Clicks = 0;
     public static int Money = 0;
@@ -37,6 +37,7 @@ public class Clicker : MonoBehaviour
         Clicks += add;
 
         AddMoney(add);
+
         Debug.Log("Add Click and Money");
     }
 
